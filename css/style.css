@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+/* CORE STYLES */
+:root {
+    --primary-color: white;
+    --secondary-clr: #E9104C;
+}
+body{
+    text-align: center;
+    color: var(--primary-color);
+    background:linear-gradient(#f975a9,#fb9bc1);
+    height: 120vh;
+}
+h1{
+    font-family: 'Bungee Shade', cursive;
+    font-size: 5em;
+    padding: 1em 0em 0em;
+}
+h2{
+    font-family: 'Fredoka One', cursive;
+    font-size: 2.3em;
+}
+.logo{
+    max-width: 20%;
+    margin-top: 3em;
+    position: absolute;
+    left: 2em;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    background: var(--secondary-clr);
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    font-size: 1.7em;
+    border-radius: 0.7em;
+    margin-top: 1em;
+    padding: 0.45em 2em;
+}
+.btn:hover {
+    background-color:#A8D884;
+    color: var(--secondary-clr);
+}
+/* Buttons */
+.sounds{
+    max-width: 80em;
+    margin: 0 auto;
+}
+.icon {
+    transition: transform 0.2s ease-in-out;
+      margin-right: 2em
+      }
+    .icon:hover {
+      transform: rotate(180deg);
+      opacity: 0.7;
+    }
+ /* Media*/
+ @media (min-width: 320px) and (max-width: 767px) {
+    body{
+        height: 450vh;
+    }
+    h1 {
+      font-size:3em;
+    }
+    h2 {
+      font-size: 2em;
+    }
+    .logo{
+        margin-top: 2em;
+        position: absolute;
+        left: 0;
+    }
+  }
+  
